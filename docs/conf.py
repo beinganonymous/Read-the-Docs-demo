@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'docdemo'
+project = 'DocsDemo'
 copyright = '2020, Chetan Patil'
 author = 'Chetan Patil'
 
