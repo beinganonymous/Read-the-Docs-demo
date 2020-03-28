@@ -132,13 +132,14 @@ The current designer only allows uploading one asset at a time. If you need to u
             }
         }
     }```
+  ****
   
-  
+
 
 ### Test cases for Multiple File Uploads
 
    File upload is an important part of any web application. We can test file upload either using manual testing or using        automation testing.
-
+   ****
 
 - **Make sure, cancel button works during the upload process :** 
     ```public class ClientAbortMethod {
