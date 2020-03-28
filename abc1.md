@@ -92,13 +92,12 @@ The current designer only allows uploading one asset at a time. If you need to u
       ```JFileChooser chooser = new JFileChooser();
         chooser.setMultiSelectionEnabled(true);
         chooser.showOpenDialog(frame);
-        File[] files = chooser.getSelectedFiles();```
+        File[] files = chooser.getSelectedFiles();
 
 
-- **Implement POST multipart request operation to understand that more than one file :** 
-    Add File inputs in browsers to support multiple file selection and implement POST operation to understand that more than     one file might come in a request and to handle it accordingly. 
-    
-    Multipart utility class uses ``java.net.HttpURLConnection`` class and follows the [*RFC 1867*](http://www.ietf.org/rfc/rfc1867.txt) *(Form-based File Upload in HTML)* to make an HTTP POST request with ``multipart/form-data`` content type in order to upload files to a given URL. It has one constructor and three methods:
+- **Implement POST multipart request operation to understand that more than one file :** Add File inputs in browsers to support multiple file selection and implement POST operation to understand that more than one file might come in a request and to handle it accordingly. 
+
+Multipart utility class uses ``java.net.HttpURLConnection`` class and follows the [*RFC 1867*](http://www.ietf.org/rfc/rfc1867.txt) *(Form-based File Upload in HTML)* to make an HTTP POST request with ``multipart/form-data`` content type in order to upload files to a given URL. It has one constructor and three methods:
         - ``**MultipartUtility**(String requestURL, String charset)``: creates a new instance of this class for a given request URL and charset.
         - void ``**addFormField**(String name, String value)``: adds a regular text field to the request.
         - void ``**addHeaderField**(String name, String value)``: adds an HTTP header field to the request.
