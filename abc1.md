@@ -88,22 +88,23 @@ The current designer only allows uploading one asset at a time. If you need to u
 - **Allow File Chooser to select multiple files** : 
     
     Improve current file chooser allow to select multiple files at a time. After opening computer window it should allow to       select multiple files at a time. A pseudo-code to implement this :
-      ``JFileChooser chooser = new JFileChooser();
+      ```JFileChooser chooser = new JFileChooser();
         chooser.setMultiSelectionEnabled(true);
         chooser.showOpenDialog(frame);
-        File[] files = chooser.getSelectedFiles();``
+        File[] files = chooser.getSelectedFiles();```
 
 
 - **Implement POST multipart request operation to understand that more than one file :** 
     Add File inputs in browsers to support multiple file selection and implement POST operation to understand that more than     one file might come in a request and to handle it accordingly. 
     
     Multipart utility class uses ``java.net.HttpURLConnection`` class and follows the [*RFC 1867*](http://www.ietf.org/rfc/rfc1867.txt) *(Form-based File Upload in HTML)* to make an HTTP POST request with ``multipart/form-data`` content type in order to upload files to a given URL. It has one constructor and three methods:
+    
         - ``**MultipartUtility**(String requestURL, String charset)``: creates a new instance of this class for a given request URL and charset.
         - void ``**addFormField**(String name, String value)``: adds a regular text field to the request.
         - void ``**addHeaderField**(String name, String value)``: adds an HTTP header field to the request.
         - void ``**addFilePart**(String fieldName, File uploadFile)``: attach a file to be uploaded to the request.
         - ``List<String> **finish**()``: this method must be invoked lastly to complete the request and receive response from server as a list of String.
-   ``public class MultipartFileUploader { 
+   ```public class MultipartFileUploader { 
         public static void main(String[] args) {
             String charset = "UTF-8";
             File uploadFile1 = new File("e:/Test/PIC1.JPG");
@@ -126,14 +127,14 @@ The current designer only allows uploading one asset at a time. If you need to u
                 System.err.println(ex);
             }
         }
-    }``
+    }```
     
 
 **Test cases for Multiple File Uploads**
 
 
 - **Make sure, cancel button works during the upload process :** 
-    public class ClientAbortMethod {
+    ```public class ClientAbortMethod {
         public final static void main(String[] args) throws Exception {
             CloseableHttpClient httpclient = HttpClients.createDefault();
             try {
@@ -151,21 +152,21 @@ The current designer only allows uploading one asset at a time. If you need to u
                 httpclient.close();
             }
         }
-    }
+    }```
 
 
 - **Test, only the particular file types can be uploaded :**
     We can check file type with ``file.getContentType()` and allow only particular file types to be uploaded.
     
 - **Verify uploaded file cannot exceed a certain size :** We can count buffer size of file and implement this feature.
-    int size = 0;
+   ``` int size = 0;
     while ((read = uploadedInputStream.read(buffer)) != -1) {
         out.write(buffer, 0, read);
         size += read.length;
-    }
+    }```
     
 - **Test empty upload is not working :**
-    Check empty upload using `if (projectImg.isEmpty()) { ... }`
+    Check empty upload using ``if (projectImg.isEmpty()) { ... }``
 
 
 
