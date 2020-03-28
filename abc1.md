@@ -4,12 +4,18 @@
 # About Me
 ## Personal Information
 
-**Name** : Chetan D Patil
-**Country** : India
-**Email** : [chetanpatilonmail@gmail.com](https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=chetanpatilonmail@gmail.com)
-**GitHub** : [beinganonymous](https://github.com/beinganonymous)
-**Major** :  Bachelors of Technology in Information Technology Engineering
-**College** : [Vishwakarma Institute of Information Technology, Pune, India](https://viit.ac.in/)
+**Name** : Chetan D Patil 
+
+**Country** : India 
+
+**Email** : [chetanpatilonmail@gmail.com](https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=chetanpatilonmail@gmail.com) 
+
+**GitHub** : [beinganonymous](https://github.com/beinganonymous) 
+
+**Major** :  Bachelors of Technology in Information Technology Engineering 
+
+**College** : [Vishwakarma Institute of Information Technology, Pune, India](http://viit.ac.in/) 
+
 **Time Zone**: Indian Standard Time (UTC + 5:30)
 
 
