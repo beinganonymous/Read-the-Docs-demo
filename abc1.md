@@ -23,28 +23,28 @@
 # Interest in App Inventor
 ----------
 
-I first learnt about MIT App Inventor in 2017. I was looking for tools to develop Android Application and then i came to know about two tools MIT App Inventor and Android Studio. System requirements of Android studio was too high hence i choose to go with MIT App Inventor, since then i love to use MIT App Inventor for developing mobile apps.  It is such a great platform for developing computational thinking, and I am very eager to contribute to the effort.
+I first learned about MIT App Inventor in 2017. I was looking for tools to develop Android Application and then I came to know about two tools MIT App Inventor and Android Studio. System requirements of Android studio were too high hence I choose to go with MIT App Inventor since then I love to use MIT App Inventor for developing mobile apps.  It is such a great platform for developing computational thinking, and I am very eager to contribute to the effort.
 
 
 # Interest in introductory programming 
 ----------
 
-I have been learning introductory programming since 2016. I have good understanding of various programming languages such as C, C++, Java, Python.
+I have been learning introductory programming since 2016. I have a good understanding of various programming languages such as C, C++, Java, Python.
 
 **C/C++**: I was introduced to computer programming through the language C during the first year of my college, I have been coding in C and C++ since then for the implementation of Data Structures and Algorithms for courses in my college as well as for Competitive Coding. I have also used C for coding basic computer networks.
 
-**Java**: I gained experience of coding in Java through the Object Oriented programming course during the second year of my college.
+**Java**: I gained experience in coding in Java through the Object-Oriented programming course during the second year of my college.
 
 **Python**: I have done various projects in Python involving various applications of Machine Learning and Deep Learning like Data analysis, Audio processing, Image segmentation and am very fluent in coding in Python.
 
-I have also taken Hands on Session for Android with Kotlin for 3 days where i have covered introductory programming with Kotlin and developed some Android apps with Kotlin. Here is Session plan that i have used ([Session](https://github.com/beinganonymous)). Also i have taken Seminar on Git Workflow at my University.  
+I have also taken Hands-on Session for Android with Kotlin for 3 days where I have covered introductory programming with Kotlin and developed some Android apps with Kotlin. Here is the Session plan that I have used ([Session](https://github.com/beinganonymous)). Also, I have taken a Seminar on Git Workflow at my University.  
 
 # Proposed summer project
 ----------
 ## Why me ?
 
-I am pursuing my bachelors in Information at Vishwakarma Institute of Information Technology. I have won few competition such as Smart India Hackathon which is National Level Hackathon in India and developed a road safety app for same, I have developed some real-time application such as secure chatting which provides external data security by encrypting messages and decrypt  same when needed. I have contributed in open source for DevFest App for Google Developer Group Pune. I have cleared the third level of Google's Foo Bar challenge. 
-I have contributed on two issues in MIT App Inventor [#2071](https://github.com/mit-cml/appinventor-sources/issues/2071) and [#2107](https://github.com/mit-cml/appinventor-sources/issues/2107). Through this Google Summer of Code project, I hope to contribute good quality code to the MIT App Inventor project.
+I am pursuing my bachelor's in Information Technology at Vishwakarma Institute of Information Technology. I have won few competitions such as Smart India Hackathon which is National Level Hackathon in India and developed a road safety app for the same, I have developed some real-time applications such as secure chatting which provides external data security by encrypting messages and decrypt same when needed. I have contributed to open source for DevFest App for Google Developer Group Pune. I have cleared the third level of Google's Foo Bar challenge. 
+I have contributed to two issues in MIT App Inventor [#2071](https://github.com/mit-cml/appinventor-sources/issues/2071) and [#2107](https://github.com/mit-cml/appinventor-sources/issues/2107). Through this Google Summer of Code project, I hope to contribute good quality code to the MIT App Inventor project.
 
 
 ## Title
@@ -54,10 +54,10 @@ Designer Projects : Multiple File Uploads
 
 ## Abstract
 
-**MIT App Inventor** is a web application integrated development environment. It allows newcomers to computer programming to create application software(apps). This project focuses on improving the capacity of current designer to allow multiple file uploads.
+**MIT App Inventor** is a web application integrated development environment. It allows newcomers to computer programming to create application software(apps). This project focuses on improving the capacity of the current designer to allow multiple file uploads.
 The current designer only allows uploading one asset at a time. If you need to upload 10 images, you need to do the process 10 times. It would be a much better experience to be able to upload a number of assets in one go.
 
-Most of my work has been centred around fixing bugs during the user on-boarding process. Further, [#2071](https://github.com/mit-cml/appinventor-sources/issues/2071) which helped me familiarize with different parts of the code-base to a good extent.
+Most of my work has been centered around fixing bugs during the user on-boarding process. Further, [#2071](https://github.com/mit-cml/appinventor-sources/issues/2071) which helped me familiarize myself with different parts of the code-base to a good extent.
 
 
 ## Deliverables:
@@ -66,7 +66,7 @@ The deliverables of the project would be as follows:
 
 1. **An improvement in the currently existing file chooser**: 
 
-   Current file chooser only support to upload one file at a time, so this deliverable will add support to current file          chooser to allow multiple file upload in one go.
+   The current file chooser only supports uploading one file at a time, so this deliverable will add support to the current   file chooser to allow multiple file upload in one go.
     
 2. **Test cases for Multiple File Uploads**: File upload is an important part of any web application. We can test file upload either using manual testing or using automation testing. Following elements should be tested while uploading files.
 
@@ -101,12 +101,12 @@ The deliverables of the project would be as follows:
 
 ### An improvement in the currently existing file chooser
 
-The current designer only allows uploading one asset at a time. If you need to upload 10 images, you need to do the process 10 times. It would be a much better experience to be able to upload a number of assets in one go.
+The current designer only allows uploading one asset at a time. If you need to upload 10 images, you need to do the process 10 times. It would be a much better experience to be able to upload several assets in one go.
 ****
 
 - **Allow File Chooser to select multiple files** : 
     
-    Improve current file chooser allow to select multiple files at a time. After opening computer window it should allow to       select multiple files at a time. A pseudo-code to implement this :
+    Improve current file chooser allow to select multiple files at a time. After opening a computer window it should allow selecting multiple files at a time. A pseudo-code to implement this :
     
         JFileChooser chooser = new JFileChooser();
         chooser.setMultiSelectionEnabled(true);
@@ -114,9 +114,9 @@ The current designer only allows uploading one asset at a time. If you need to u
         File[] files = chooser.getSelectedFiles();
 
 
-- **Implement POST multipart request operation to understand that more than one file :** 
+- **Implement POST multipart request operation to receive more than one file :** 
 
-   Add File inputs in browsers to support multiple file selection and implement POST operation to understand that more than    one file might come in a request and to handle it accordingly. 
+   Add File inputs in browsers to support multiple file selection and implement POST operation to understand that more than one file might come in a request and to handle it accordingly. 
 
    Multipart utility class uses ``java.net.HttpURLConnection`` class and follows the [*RFC 1867*](http://www.ietf.org/rfc/rfc1867.txt) *(Form-based File Upload in HTML)* to make an HTTP POST request with ``multipart/form-    data`` content type in order to upload files to a given URL. It has one constructor and three methods:
 
@@ -154,9 +154,9 @@ The current designer only allows uploading one asset at a time. If you need to u
 ****    
 ### Test cases for Multiple File Uploads
 
-   File upload is an important part of any web application. We can test file upload either using manual testing or using        automation testing.
+   File upload is an important part of any web application. We can test file upload either using manual testing or using automation testing.
    ****
-
+   **Test Cases :**
 - **Make sure, cancel button works during the upload process :** 
     ```public class ClientAbortMethod {
         public final static void main(String[] args) throws Exception {
@@ -197,7 +197,7 @@ The current designer only allows uploading one asset at a time. If you need to u
 ## Implementation Plan
 ----------
 
-The following timeline shows my implementation plan.  I have allocated to various aspects of the project. This is by no means the final time allocation, and with the guidance of the mentors I hope to update this.
+The following timeline shows my implementation plan.  I have allocated to various aspects of the project. This is by no means the final time allocation, and with the guidance of the mentors, I hope to update this.
 
 
 Title |     Dates    | Description
@@ -219,23 +219,23 @@ Coding Period( Week 9, 10, 11 and 12)<br> | August 1, 2020 - August 24, 2020 |  
 ----------
 ## **Android Development with the Java SDK**
 
-The Android project that I am the most proud of is SafeDriveDroid. I completed this project as part of a hackathon and [won first prize](https://www.aicte-india.org/sites/default/files/sihwinners.pdf) at the Smart India Hackathon 2018. I was an intern android developer at [Arishti CyberTech Pvt.Ltd](http://www.arishti.com/). As part of this internship, I got the opportunity to work on Face Recognition for android device using Deep Learning and uploading multiple file to server at a time using multipart request. Furthermore, I have also developed chatting application which is based on Cloud Database and also includes features like Encryption & Decryption for internal data security. This app has feature like Image To Text and Speech To Text([source code](https://github.com/beinganonymous/SecureChatDroid))
+The Android project that I am proudest of is SafeDriveDroid. I completed this project as part of a hackathon and [won first prize](https://www.aicte-india.org/sites/default/files/sihwinners.pdf) at the Smart India Hackathon 2018. I was an intern android developer at [Arishti CyberTech Pvt.Ltd](http://www.arishti.com/). As part of this internship, I got the opportunity to work on Face Recognition for the android device using Deep Learning and uploading multiple files to the server at a time using the multipart request. Furthermore, I have also developed a chatting application that is based on Cloud Database and also includes features like Encryption & Decryption for internal data security. This app has a feature like an Image To Text and Speech To Text([source code](https://github.com/beinganonymous/SecureChatDroid))
 
 
 ## **Javascript**
 
-I have developed my personal portfolio using javascript and jkyll([source code](https://github.com/beinganonymous/beinganonymous.github.io)). Also I have developed Paying Guest Rental System using javascript which allow you to rent a room in any given location where i have used The Maps JavaScript API.
+I have developed my personal portfolio using javascript and Jekyll([source code](https://github.com/beinganonymous/beinganonymous.github.io)). Also, I have developed Paying Guest Rental System using javascript which allows you to rent a room in any given location where I have used The Maps JavaScript API.
 
 
 ## Google Web Toolkit
 
-I am currently working on issues in MIT App Inventor Project where i am working on GWT to open dialog box when remove screen button is clicked([#issue2071](https://github.com/mit-cml/appinventor-sources/issues/2071)) and Replace Move to Trash button with Delete from Trash when View Trash button is clicked([#issue2107](https://github.com/mit-cml/appinventor-sources/issues/2107)).
+I am currently working on issues in MIT App Inventor Project where I am working on GWT to open dialog box when removing screen button is clicked([#issue2071](https://github.com/mit-cml/appinventor-sources/issues/2071)) and Replace Move to Trash button with Delete from Trash when View Trash button is clicked([#issue2107](https://github.com/mit-cml/appinventor-sources/issues/2107)).
 
 ****
 # Experience with teams, online developer communities and large code bases
 ----------
 
-I have contributed to the various issues on MIT App Inventor Project. While working on this issues, I learnt the importance of prompt and clear communication. I often saw lot of ideas come up during code design, implementation and code review process. I got know coding styles used in MIT App Inventor Project, also i got know about contribution guidelines of MIT App Inventor Project. I have also contributed to one issue in Intel/dffml repository where i was working on continuous integration environment to detect trailing white spaces in repository
+I have contributed to the various issues on the MIT App Inventor Project. While working on these issues, I learned the importance of prompt and clear communication. I often saw a lot of ideas come up during code design, implementation, and code review process. I got to know coding styles used in MIT App Inventor Project, also I got to know about the contribution guidelines of MIT App Inventor Project. I have also contributed to one issue in the Intel/dffml repository where I was working on continuous integration environment to detect trailing white spaces in a repository
 
 **Open source contributions:**
 
@@ -273,7 +273,7 @@ https://github.com/mit-cml/appinventor-sources/pull/2116
     [AIA](https://uce71715cc1f06f713c0a67b2d11.dl.dropboxusercontent.com/cd/0/get/A0sgyVH8UfffRN2xlB6CIsN5QlactGJNAB5ftXFbbP-7gixHdZNenGWQb8FNL9mWFKxUhcxMG3plNTQEbfgLf7gEOfJ3jDS9lLipXMTIWYksW9MfpcungaVIa_pP-otkosY/file?dl=1#) | [APK](https://uc439443c66eaad90b8d85af0b8a.dl.dropboxusercontent.com/cd/0/get/A0vM2UYkz3y7sp2W_RZXdJtXatCk_bupAxHF2haIaLaIcXTUI778kkV7Jl5yucJwezqidIW_U-hJgK-QzrkYsC241GbEarwQPAzhwEB13Rg_LOIMwPNht8ggR-Kmna2EY98/file#)
     
 2. **Russian Roulette :**
-    It is a game based of Russian Roulette. In this case we have a revolver for 6 bullets. First Reload revolver putting a single bullet and rotating the drum. The bullet will be located randomly in one of the six sites. Then let 's pressing randomly the different buttons. If the number instead of the bullet matches the number of the button pressed, the screen turns red.
+    It is a game based on Russian Roulette. In this case, we have a revolver for 6 bullets. First Reload revolver putting a single bullet and rotating the drum. The bullet will be located randomly in one of the six sites. Then let 's pressing randomly the different buttons. If the number instead of the bullet matches the number of the button pressed, the screen turns red.
     [AIA](https://uc0bbdbec42f70a6ee909f14cc69.dl.dropboxusercontent.com/cd/0/get/A0skb-HM4MvVzN_uJTlIZatLkvD5lEmKWU8-uAfCC_5r3JWRm1E_MuMPB33n8yNx0gOwA2wyC4VpFdBSm-3r6qnHv4xf6pJwVvect6gkaBclTClOuSqgI_5FXGSFvXrH1DU/file#) | [APK](https://ucbc57273590db97d75544f0ca88.dl.dropboxusercontent.com/cd/0/get/A0vx3aJXHmmxddhFdm8b4dgn5vA9LxwGaWSd9KDG9rodxcxMd0Z5HLyygY9zl39Q-27xPLMvO2VqPOAsY2xCiiNSvindYuhN7FjN84fHQdCcZ2oP5x0C_sFKddhwU5Tnyzk/file#)
 
 
@@ -281,16 +281,18 @@ https://github.com/mit-cml/appinventor-sources/pull/2116
 
 
 - **useFront Property :**
-    This [issue](https://github.com/mit-cml/appinventor-sources/issues/180) says that, "[the useFront] property relied on an undocumented feature of the android camera system". This feature has been removed from nearly all androids, including older ones including 2.3 devices. There exists no intent to specify which camera to use, and the user should decide what camera to use. There was a well-known risk that it may stop working someday. That day came when there is an upgrade in Android OS from jellybean to kitkat. Furthermore, according to [this comment](https://github.com/mit-cml/appinventor-sources/pull/335#issuecomment-86684286), App Inventor has always used an intent to launch the external camera app, and that intent does not have any way of specifying, and it definitely cannot query device state. Therefore, this property was removed from the AI design and block interfaces.
+    This [issue](https://github.com/mit-cml/appinventor-sources/issues/180) says that "[the useFront] property relied on an undocumented feature of the android camera system". This feature has been removed from nearly all androids, including older ones including 2.3 devices. There exists no intent to specify which camera to use, and the user should decide what camera to use. There was a well-known risk that it may stop working someday. That day came when there is an upgrade in Android OS from jellybean to KitKat. Furthermore, according to [this comment](https://github.com/mit-cml/appinventor-sources/pull/335#issuecomment-86684286), App Inventor has always used an intent to launch the external camera app, and that intent does not have any way of specifying, and it definitely cannot query device state. Therefore, this property was removed from the AI design and block interfaces.
 
 
 - **Design Solution :**
+
     Properties Needed: **frontCamera**, **backCamera**.
+  
     Methods Needed: **IsSelected**, TakePicture (already there)
 
 
 - **Implementation :**
-    Due to the limitations across different APIs and devices in how selecting the camera upon intent passing, it would be better if we discard the existing Camera component (working on Intent) and replace it with new component working on Camera API.
+   Due to the limitations across different APIs and devices in how selecting the camera upon intent passing, it would be better if we discard the existing Camera component (working on Intent) and replace it with a new component working on Camera API.
 
 
     According to the [Camera API documentation](http://developer.android.com/reference/android/hardware/Camera.html#open(int)), we can utilize the **Camera.open(int id)** method of the **Camera** class, where **id** refers to the camera the user has specified in the property list.
