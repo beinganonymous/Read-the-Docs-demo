@@ -1,8 +1,17 @@
 # Application for GSoC 2020 : Multiple File Uploads
-<p align="center"> 
-<img src="https://github.com/beinganonymous/Read-the-Docs-demo/blob/master/MIT%20App%20Inventor_0.jpg">
-</p>
 ----------
+
+# About Me
+## Personal Information
+
+**Name** : Chetan D Patil
+**Country** : India
+**Email** : [chetanpatilonmail@gmail.com](https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=chetanpatilonmail@gmail.com)
+**GitHub** : [beinganonymous](https://github.com/beinganonymous)
+**Major** :  Bachelors of Technology in Information Technology Engineering
+**College** : [Vishwakarma Institute of Information Technology, Pune, India](https://viit.ac.in/)
+**Time Zone**: Indian Standard Time (UTC + 5:30)
+
 
 # Interest in App Inventor
 ----------
