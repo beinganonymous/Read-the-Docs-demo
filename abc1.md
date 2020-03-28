@@ -1,4 +1,5 @@
 # Application for GSoC 2020
+----------
 
 # Interest in App Inventor
 ----------
@@ -10,16 +11,21 @@ I first learnt about MIT App Inventor in 2017. I was looking for tools to develo
 ----------
 
 I have been learning introductory programming since 2016. I have good understanding of various programming languages such as C, C++, Java, Python.
+
 **C/C++**: I was introduced to computer programming through the language C during the first year of my college, I have been coding in C and C++ since then for the implementation of Data Structures and Algorithms for courses in my college as well as for Competitive Coding. I have also used C for coding basic computer networks.
+
 **Java**: I gained experience of coding in Java through the Object Oriented programming course during the second year of my college.
+
 **Python**: I have done various projects in Python involving various applications of Machine Learning and Deep Learning like Data analysis, Audio processing, Image segmentation and am very fluent in coding in Python.
+
 I have also taken Hands on Session for Android with Kotlin for 3 days where i have covered introductory programming with Kotlin and developed some Android apps with Kotlin. Here is Session plan that i have used ([Session](https://github.com/beinganonymous)). Also i have taken Seminar on Git Workflow at my University.  
 
 # Proposed summer project
 ----------
 ## Why me ?
 
-I am pursuing my bachelors in Information at Vishwakarma Institute of Information Technology. I have won few competition such as Smart India Hackathon which is National Level Hackathon in India and developed a road safety app for same, I have developed some real-time application such as secure chatting which provides external data security by encrypting messages and decrypt  same when needed. I have contributed in open source for DevFest App for Google Developer Group Pune. I have cleared the third level of Google's Foo Bar challenge. I have contributed on two issues in MIT App Inventor [#2071](https://github.com/mit-cml/appinventor-sources/issues/2071) and [#2107](https://github.com/mit-cml/appinventor-sources/issues/2107). Through this Google Summer of Code project, I hope to contribute good quality code to the MIT App Inventor project.
+I am pursuing my bachelors in Information at Vishwakarma Institute of Information Technology. I have won few competition such as Smart India Hackathon which is National Level Hackathon in India and developed a road safety app for same, I have developed some real-time application such as secure chatting which provides external data security by encrypting messages and decrypt  same when needed. I have contributed in open source for DevFest App for Google Developer Group Pune. I have cleared the third level of Google's Foo Bar challenge. 
+I have contributed on two issues in MIT App Inventor [#2071](https://github.com/mit-cml/appinventor-sources/issues/2071) and [#2107](https://github.com/mit-cml/appinventor-sources/issues/2107). Through this Google Summer of Code project, I hope to contribute good quality code to the MIT App Inventor project.
 
 
 ## Title
@@ -31,6 +37,7 @@ Designer Projects : Multiple File Uploads
 
 **MIT App Inventor** is a web application integrated development environment. It allows newcomers to computer programming to create application software(apps). This project focuses on improving the capacity of current designer to allow multiple file uploads.
 The current designer only allows uploading one asset at a time. If you need to upload 10 images, you need to do the process 10 times. It would be a much better experience to be able to upload a number of assets in one go.
+
 Most of my work has been centred around fixing bugs during the user on-boarding process. Further, [#2071](https://github.com/mit-cml/appinventor-sources/issues/2071) which helped me familiarize with different parts of the code-base to a good extent.
 
 
@@ -38,10 +45,13 @@ Most of my work has been centred around fixing bugs during the user on-boarding 
 
 The deliverables of the project would be as follows:
 
-1. **An improvement in the currently existing file chooser**: Current file chooser only support to upload one file at a time, so this deliverable will add support to current file chooser to allow 
-    multiple file upload in one go.
+1. **An improvement in the currently existing file chooser**: 
+
+   Current file chooser only support to upload one file at a time, so this deliverable will add support to current file          chooser to allow multiple file upload in one go.
     
-2. **Test cases for Multiple File Uploads**: File upload is an important part of any web application. We can test file upload either using manual testing or using automation testing. Following elements should be tested while uploading files.
+2. **Test cases for Multiple File Uploads**: 
+
+File upload is an important part of any web application. We can test file upload either using manual testing or using automation testing. Following elements should be tested while uploading files.
     - Test the phrase upload is correctly aligned with the upload button.
     - Verify, a window is opened once this upload button is clicked.
     - Make sure, cancel button works during the upload process.
@@ -55,14 +65,18 @@ The deliverables of the project would be as follows:
     - Verify multiple uploads of the same file is not allowed.
     - Make sure a new copy of the uploaded file is created to avoid overwriting.
     - Test drag and drop file options to upload is working properly besides the traditional way of uploading.
-    - Once the file is uploaded or error in uploading, proper redirection happens to a web page or
-        part of an application.
-        
-3. **Project Documentation**: Write a proper documentation for project with proper test cases.
+    - Once the file is uploaded or error in uploading, proper redirection happens to a web page or part of an application.
+         
+3. **Project Documentation**: 
+    
+    Write a proper documentation for project with proper test cases.
+
 4. **Some general issues** **:** 
+    
     - Delete key does not prompt deletion in designer -(issues [#2040](https://github.com/mit-cml/appinventor-sources/issues/2040))
     - Add property to File to use app external data dir rather than whole storage partition -(issues #[1833](https://github.com/mit-cml/appinventor-sources/issues/1833))
     - Drag and Drop Support to upload files -(issue [#2122](https://github.com/mit-cml/appinventor-sources/issues/2122))
+    
     
 ****## Approach
 ----------
@@ -71,21 +85,26 @@ The deliverables of the project would be as follows:
 
 The current designer only allows uploading one asset at a time. If you need to upload 10 images, you need to do the process 10 times. It would be a much better experience to be able to upload a number of assets in one go.
 ****
-- **Allow File Chooser to select multiple files** :  Improve current file chooser allow to select multiple files at a time. After opening computer window it should allow to select multiple files at a time. A pseudo-code to implement this :
-        JFileChooser chooser = new JFileChooser();
+
+- **Allow File Chooser to select multiple files** : 
+    
+    Improve current file chooser allow to select multiple files at a time. After opening computer window it should allow to       select multiple files at a time. A pseudo-code to implement this :
+      ``JFileChooser chooser = new JFileChooser();
         chooser.setMultiSelectionEnabled(true);
         chooser.showOpenDialog(frame);
-        File[] files = chooser.getSelectedFiles();
+        File[] files = chooser.getSelectedFiles();``
 
 
-- **Implement POST multipart request operation to understand that more than one file :** Add File inputs in browsers to support multiple file selection and implement POST operation to understand that more than one file might come in a request and to handle it accordingly. A pseudo-code to implement this :
-    Multipart utility class uses `java.net.HttpURLConnection` class and follows the [*RFC 1867*](http://www.ietf.org/rfc/rfc1867.txt) *(Form-based File Upload in HTML)* to make an HTTP POST request with `multipart/form-data` content type in order to upload files to a given URL. It has one constructor and three methods:
-        - `**MultipartUtility**``(String requestURL, String charset)`: creates a new instance of this class for a given request URL and charset.
-        - void `**addFormField**``(String name, String value)`: adds a regular text field to the request.
-        - void ``**addHeaderField**``(String name, String value)``: adds an HTTP header field to the request.
-        - void ``**addFilePart**``(String fieldName, File uploadFile)``: attach a file to be uploaded to the request.
-        - `List<String>` `**finish**``()`: this method must be invoked lastly to complete the request and receive response from server as a list of String.
-    public class MultipartFileUploader { 
+- **Implement POST multipart request operation to understand that more than one file :** 
+    Add File inputs in browsers to support multiple file selection and implement POST operation to understand that more than     one file might come in a request and to handle it accordingly. 
+    
+    Multipart utility class uses ``java.net.HttpURLConnection`` class and follows the [*RFC 1867*](http://www.ietf.org/rfc/rfc1867.txt) *(Form-based File Upload in HTML)* to make an HTTP POST request with ``multipart/form-data`` content type in order to upload files to a given URL. It has one constructor and three methods:
+        - ``**MultipartUtility**(String requestURL, String charset)``: creates a new instance of this class for a given request URL and charset.
+        - void ``**addFormField**(String name, String value)``: adds a regular text field to the request.
+        - void ``**addHeaderField**(String name, String value)``: adds an HTTP header field to the request.
+        - void ``**addFilePart**(String fieldName, File uploadFile)``: attach a file to be uploaded to the request.
+        - ``List<String> **finish**()``: this method must be invoked lastly to complete the request and receive response from server as a list of String.
+   ``public class MultipartFileUploader { 
         public static void main(String[] args) {
             String charset = "UTF-8";
             File uploadFile1 = new File("e:/Test/PIC1.JPG");
@@ -108,7 +127,7 @@ The current designer only allows uploading one asset at a time. If you need to u
                 System.err.println(ex);
             }
         }
-    }
+    }``
     
 
 **Test cases for Multiple File Uploads**
