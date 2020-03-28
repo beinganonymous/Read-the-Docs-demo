@@ -1,25 +1,26 @@
 # Application for GSoC 2020
-
 ----------
+
 # Interest in App Inventor
 ----------
-
 I first learnt about MIT App Inventor in 2017. I was looking for tools to develop Android Application and then i came to know about two tools MIT App Inventor and Android Studio. System requirements of Android studio was too high hence i choose to go with MIT App Inventor, since then i love to use MIT App Inventor for developing mobile apps.  It is such a great platform for developing computational thinking, and I am very eager to contribute to the effort.
-
 
 # Interest in introductory programming 
 ----------
-
 I have been learning introductory programming since 2016. I have good understanding of various programming languages such as C, C++, Java, Python.
+
 **C/C++**: I was introduced to computer programming through the language C during the first year of my college, I have been coding in C and C++ since then for the implementation of Data Structures and Algorithms for courses in my college as well as for Competitive Coding. I have also used C for coding basic computer networks.
+
 **Java**: I gained experience of coding in Java through the Object Oriented programming course during the second year of my college.
-**Python**: I have done various projects in Python involving various applications of Machine Learning and Deep Learning like Data analysis, Audio processing, Image segmentation and am very fluent in coding in Python.
+
+**Python**: I have done various projects in Python involving various applications of Machine Learning and Deep Learning like Image processing, Image segmentation and am very fluent in coding in Python.
+
 I have also taken Hands on Session for Android with Kotlin for 3 days where i have covered introductory programming with Kotlin and developed some Android apps with Kotlin. Here is Session plan that i have used ([Session](https://github.com/beinganonymous)). Also i have taken Seminar on Git Workflow at my University.  
 
 # Proposed summer project
 ----------
-## Why me ?
 
+## Why me ?
 I am pursuing my bachelors in Information at Vishwakarma Institute of Information Technology. I have won few competition such as Smart India Hackathon which is National Level Hackathon in India and developed a road safety app for same, I have developed some real-time application such as secure chatting which provides external data security by encrypting messages and decrypt  same when needed. I have contributed in open source for DevFest App for Google Developer Group Pune. I have cleared the third level of Google's Foo Bar challenge. I have contributed on two issues in MIT App Inventor [#2071](https://github.com/mit-cml/appinventor-sources/issues/2071) and [#2107](https://github.com/mit-cml/appinventor-sources/issues/2107). Through this Google Summer of Code project, I hope to contribute good quality code to the MIT App Inventor project.
 
 
@@ -37,8 +38,10 @@ The current designer only allows uploading one asset at a time. If you need to u
 
 The deliverables of the project would be as follows:
 
-1. **An improvement in the currently existing file chooser**: Current file chooser only support to upload one file at a time, so this deliverable will add support to current file chooser to allow multiple file upload in one go.
-2. **Test cases for Multiple File Uploads**: File upload is an important part of any web application. We can test file upload either using manual testing or using automation testing. Following elements should be tested while uploading files.
+1. **An improvement in the currently existing file chooser**: 
+Current file chooser only support to upload one file at a time, so this deliverable will add support to current file chooser to allow multiple file upload in one go.
+2. **Test cases for Multiple File Uploads**: 
+File upload is an important part of any web application. We can test file upload either using manual testing or using automation testing. Following elements should be tested while uploading files.
     - Test the phrase upload is correctly aligned with the upload button.
     - Verify, a window is opened once this upload button is clicked.
     - Make sure, cancel button works during the upload process.
@@ -53,7 +56,8 @@ The deliverables of the project would be as follows:
     - Make sure a new copy of the uploaded file is created to avoid overwriting.
     - Test drag and drop file options to upload is working properly besides the traditional way of uploading.
     - Once the file is uploaded or error in uploading, proper redirection happens to a web page or part of an application.
-3. **Project Documentation**: Write a proper documentation for project with proper test cases.
+3. **Project Documentation**: 
+Write a proper documentation for project with proper test cases.
 
 
 ## Approach
@@ -137,11 +141,11 @@ I have contributed to the various issues on MIT App Inventor Project. While work
 ## **Challenge 2:Design challenge -- Enhancing the Camera operation**
 
 
-- **useFront Property :**
+- **useFront Property** :
     This [issue](https://github.com/mit-cml/appinventor-sources/issues/180) says that, "[the useFront] property relied on an undocumented feature of the android camera system". This feature has been removed from nearly all androids, including older ones including 2.3 devices. There exists no intent to specify which camera to use, and the user should decide what camera to use. There was a well-known risk that it may stop working someday. That day came when there is an upgrade in Android OS from jellybean to kitkat. Furthermore, according to [this comment](https://github.com/mit-cml/appinventor-sources/pull/335#issuecomment-86684286), App Inventor has always used an intent to launch the external camera app, and that intent does not have any way of specifying, and it definitely cannot query device state. Therefore, this property was removed from the AI design and block interfaces.
 
 
-- **Design Solution :**
+- **Design Solution** :
     Properties Needed: **frontCamera**, **backCamera**.
     Methods Needed: **IsSelected**, TakePicture (already there)
 
