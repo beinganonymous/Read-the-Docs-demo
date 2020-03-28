@@ -174,7 +174,7 @@ The current designer only allows uploading one asset at a time. If you need to u
     Check empty upload using ``if (projectImg.isEmpty()) { ... }``
 
 
-
+****
 ## Implementation Plan
 ----------
 
@@ -212,7 +212,7 @@ I have developed my personal portfolio using javascript and jkyll([source code](
 
 I am currently working on issues in MIT App Inventor Project where i am working on GWT to open dialog box when remove screen button is clicked([#issue2071](https://github.com/mit-cml/appinventor-sources/issues/2071)) and Replace Move to Trash button with Delete from Trash when View Trash button is clicked([#issue2107](https://github.com/mit-cml/appinventor-sources/issues/2107)).
 
-
+****
 # Experience with teams, online developer communities and large code bases
 ----------
 
@@ -245,6 +245,7 @@ Currently Working On :
 
 https://github.com/mit-cml/appinventor-sources/pull/2116
 
+****
 # Application challenges
 ----------
 ## **Challenge 1: Creating a non-trivial app**
