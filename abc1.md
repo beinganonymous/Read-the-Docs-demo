@@ -1,5 +1,5 @@
 # Application for GSoC 2020
-----------
+
 # Interest in App Inventor
 ----------
 
