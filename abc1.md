@@ -99,7 +99,7 @@ The current designer only allows uploading one asset at a time. If you need to u
 
    Add File inputs in browsers to support multiple file selection and implement POST operation to understand that more than    one file might come in a request and to handle it accordingly. 
 
-   Multipart utility class uses ``java.net.HttpURLConnection`` class and follows the [*RFC 1867*]            (http://www.ietf.org/rfc/rfc1867.txt) *(Form-based File Upload in HTML)* to make an HTTP POST request with ``multipart/form-    data`` content type in order to upload files to a given URL. It has one constructor and three methods:
+   Multipart utility class uses ``java.net.HttpURLConnection`` class and follows the [*RFC 1867*](http://www.ietf.org/rfc/rfc1867.txt) *(Form-based File Upload in HTML)* to make an HTTP POST request with ``multipart/form-    data`` content type in order to upload files to a given URL. It has one constructor and three methods:
 
     - ``**MultipartUtility**(String requestURL, String charset)``: creates a new instance of this class for a given request URL and charset.
     - void ``**addFormField**(String name, String value)``: adds a regular text field to the request.
@@ -180,7 +180,7 @@ The current designer only allows uploading one asset at a time. If you need to u
 The following timeline shows my implementation plan.  I have allocated to various aspects of the project. This is by no means the final time allocation, and with the guidance of the mentors I hope to update this.
 
 
-Title | Dates | Description
+Title |     Dates    | Description
 --- | --- | ---
 Application Review Period<br> | March 31, 2020 - May 4, 2020 |  I will revise the basics of Google Web Toolkit. I will learn more about the File Upload in GWT. I will get myself more familiarized with the current Designer.<br>
 Community Bonding<br> | May 3, 2020 - June 1, 2020 |  I will study about Designer Projects and will create a more detailed timeline after interacting with the mentors. I plan to stay active in discussions about Multiple File Upload as well as other projects in Designer. I will interact with the community, the mentors and the other students having different projects.<br>
