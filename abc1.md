@@ -80,7 +80,7 @@ The deliverables of the project would be as follows:
 ## Approach
 ----------
 
-**An improvement in the currently existing file chooser**
+### An improvement in the currently existing file chooser
 
 The current designer only allows uploading one asset at a time. If you need to upload 10 images, you need to do the process 10 times. It would be a much better experience to be able to upload a number of assets in one go.
 ****
@@ -132,9 +132,12 @@ The current designer only allows uploading one asset at a time. If you need to u
             }
         }
     }```
-    
+  
+  
 
-**Test cases for Multiple File Uploads**
+### Test cases for Multiple File Uploads
+
+   File upload is an important part of any web application. We can test file upload either using manual testing or using        automation testing.
 
 
 - **Make sure, cancel button works during the upload process :** 
