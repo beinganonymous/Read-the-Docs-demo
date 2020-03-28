@@ -60,7 +60,9 @@ The deliverables of the project would be as follows:
 ----------
 
 **An improvement in the currently existing file chooser**
+
 **Test cases for Multiple File Uploads**
+
 **Project Documentation**
 
 
@@ -90,7 +92,7 @@ Coding Period( Week 9, 10, 11 and 12)<br> | August 1, 2020 - August 24, 2020 |  
 ----------
 ## **Android Development with the Java SDK**
 
-The Android project that I am the most proud of is SafeDriveDroid. I completed this project as part of a hackathon and [won first prize](https://www.aicte-india.org/sites/default/files/sihwinners.pdf) at the Smart India Hackathon 2018. I was an intern android developer at [Arishti CyberTech Pvt.Ltd](http://www.arishti.com/), Arishti is developing Hyper Secure Messaging platform for closed environment organisations like Government and Private sectors using Quantum Key Distribution Cryptography. As part of this internship, I got the opportunity to work on Face Recognition for android device using Deep Learning and uploading multiple file to server at a time using multipart request. Furthermore, I have also developed chatting application which is based on Cloud Database and also includes features like Encryption & Decryption for internal data security. This app has feature like Image To Text and Speech To Text([source code](https://github.com/beinganonymous/SecureChatDroid))
+The Android project that I am the most proud of is SafeDriveDroid. I completed this project as part of a hackathon and [won first prize](https://www.aicte-india.org/sites/default/files/sihwinners.pdf) at the Smart India Hackathon 2018. I was an intern android developer at [Arishti CyberTech Pvt.Ltd](http://www.arishti.com/). As part of this internship, I got the opportunity to work on Face Recognition for android device using Deep Learning and uploading multiple file to server at a time using multipart request. Furthermore, I have also developed chatting application which is based on Cloud Database and also includes features like Encryption & Decryption for internal data security. This app has feature like Image To Text and Speech To Text([source code](https://github.com/beinganonymous/SecureChatDroid))
 
 
 ## **Javascript**
@@ -152,13 +154,12 @@ I have contributed to the various issues on MIT App Inventor Project. While work
 
 
     Camera API Methods Explanation :
+    
       getParameters()-Get existing (default) camera settings
 
-
-     setParameters(Camera.Parameters)-Modify the returned Camera.parameters object
-
-
-     takePicture(Camera.ShutterCallback, Camera.PictureCallback, Camera.PictureCallback, Camera.PictureCallback)- It captures the photo and wait for the callbacks to provide the actual image data.
+      setParameters(Camera.Parameters)-Modify the returned Camera.parameters object
+      
+      takePicture(Camera.ShutterCallback, Camera.PictureCallback, Camera.PictureCallback, Camera.PictureCallback)- It captures the photo and wait for the callbacks to provide the actual image data.
 
 Takes Picture using Back Camera(To use front camera change CAMERA_FACING_FRONT )
 
