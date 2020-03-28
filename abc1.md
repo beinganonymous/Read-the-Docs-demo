@@ -52,6 +52,7 @@ The deliverables of the project would be as follows:
 2. **Test cases for Multiple File Uploads**: 
 
 File upload is an important part of any web application. We can test file upload either using manual testing or using automation testing. Following elements should be tested while uploading files.
+
     - Test the phrase upload is correctly aligned with the upload button.
     - Verify, a window is opened once this upload button is clicked.
     - Make sure, cancel button works during the upload process.
