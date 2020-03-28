@@ -1,6 +1,6 @@
 # Application for GSoC 2020 : Multiple File Uploads
 <p align="center"> 
-<img src="https://paper-attachments.dropbox.com/s_FC5314235607776810D32144F96BF0C4445AA9F429ECD654A100D9D6FD020EC2_1553952067801_zulip_logo.png">
+<img src="https://github.com/beinganonymous/Read-the-Docs-demo/blob/master/MIT%20App%20Inventor_0.jpg">
 </p>
 ----------
 
