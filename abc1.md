@@ -107,6 +107,7 @@ The current designer only allows uploading one asset at a time. If you need to u
     - void ``**addFilePart**(String fieldName, File uploadFile)``: attach a file to be uploaded to the request.
     - ``List<String> **finish**()``: this method must be invoked lastly to complete the request and receive response from server as a list of String.
         
+   Client side pseudo code to implement multipart request.     
    ```public class MultipartFileUploader { 
         public static void main(String[] args) {
             String charset = "UTF-8";
@@ -179,18 +180,18 @@ The current designer only allows uploading one asset at a time. If you need to u
 The following timeline shows my implementation plan.  I have allocated to various aspects of the project. This is by no means the final time allocation, and with the guidance of the mentors I hope to update this.
 
 
-Title | Dates | Assigned to | Description
---- | --- | --- | ---
-Application Review Period<br> | March 31, 2020 - May 4, 2020 |  | I will revise the basics of Google Web Toolkit. I will learn more about the File Upload in GWT. I will get myself more familiarized with the current Designer.<br>
-Community Bonding<br> | May 3, 2020 - June 1, 2020 |  | I will study about Designer Projects and will create a more detailed timeline after interacting with the mentors. I plan to stay active in discussions about Multiple File Upload as well as other projects in Designer. I will interact with the community, the mentors and the other students having different projects.<br>
-Coding Period(Week 1)<br> | May 31, 2020 - June 6, 2020 |  | Weekly Deliverables : Improve current file chooser allow to select multiple files at a time. After opening computer window it should allow to select multiple files at a time.<br>
-Coding Period(Week 2)<br> | June 8, 2020 - June 14, 2020 |  | Weekly Deliverables : Improve current file chooser to support drag and drop file support for multiple files.<br>
-Coding Period(Week 3)<br> | June 15, 2020 - June 21, 2020 |  | Weekly Deliverables : Add File inputs in browsers to support multiple file selection and implement POST operation to understand that more than one file might come in a request and to handle it accordingly.<br>
-Coding Period(Week 4)<br> | June 22, 2020 - June 28, 2020 |  | Weekly Deliverables : Add Multipart Request to upload parts in parallel to improve throughput because smaller part size minimizes the impact of restarting a failed upload due to a network error.<br>
-Evaluations (Phase 1)<br> | June 28, 2020 - July 3, 2020 |  | Testing working of file chooser, improving documentation and submission.<br>
-Coding Period(Week 5, 6 and 7)<br> | July 4, 2020 - July 24, 2020 |  | Implementing various test cases regarding file uploads in browser.<br>
-Evaluations (Phase 2) (Week 8)<br> | July 25, 2020 - August 1, 2020 |  | Testing implemented test cases, improving documentation and submission.<br>
-Coding Period( Week 9, 10, 11 and 12)<br> | August 1, 2020 - August 24, 2020 |  | Write and improve documentation, solve issues related Designer section.<br>
+Title | Dates | Description
+--- | --- | ---
+Application Review Period<br> | March 31, 2020 - May 4, 2020 |  I will revise the basics of Google Web Toolkit. I will learn more about the File Upload in GWT. I will get myself more familiarized with the current Designer.<br>
+Community Bonding<br> | May 3, 2020 - June 1, 2020 |  I will study about Designer Projects and will create a more detailed timeline after interacting with the mentors. I plan to stay active in discussions about Multiple File Upload as well as other projects in Designer. I will interact with the community, the mentors and the other students having different projects.<br>
+Coding Period(Week 1)<br> | May 31, 2020 - June 6, 2020 |  Weekly Deliverables : Improve current file chooser allow to select multiple files at a time. After opening computer window it should allow to select multiple files at a time.<br>
+Coding Period(Week 2)<br> | June 8, 2020 - June 14, 2020 |  Weekly Deliverables : Improve current file chooser to support drag and drop file support for multiple files.<br>
+Coding Period(Week 3)<br> | June 15, 2020 - June 21, 2020 |  Weekly Deliverables : Add File inputs in browsers to support multiple file selection and implement POST operation to understand that more than one file might come in a request and to handle it accordingly.<br>
+Coding Period(Week 4)<br> | June 22, 2020 - June 28, 2020 |  Weekly Deliverables : Add Multipart Request to upload parts in parallel to improve throughput because smaller part size minimizes the impact of restarting a failed upload due to a network error.<br>
+Evaluations (Phase 1)<br> | June 28, 2020 - July 3, 2020 |  Testing working of file chooser, improving documentation and submission.<br>
+Coding Period(Week 5, 6 and 7)<br> | July 4, 2020 - July 24, 2020 |  Implementing various test cases regarding file uploads in browser.<br>
+Evaluations (Phase 2) (Week 8)<br> | July 25, 2020 - August 1, 2020 |  Testing implemented test cases, improving documentation and submission.<br>
+Coding Period( Week 9, 10, 11 and 12)<br> | August 1, 2020 - August 24, 2020 |  Write and improve documentation, solve issues related Designer section.<br>
 ----------
 
 
