@@ -127,7 +127,8 @@ The current designer only allows uploading one asset at a time. If you need to u
     - ``List<String> **finish**()``: this method must be invoked lastly to complete the request and receive response from server as a list of String.
         
    Client side pseudo code to implement multipart request.     
-   ```public class MultipartFileUploader { 
+   ``` 
+   public class MultipartFileUploader { 
         public static void main(String[] args) {
             String charset = "UTF-8";
             File uploadFile1 = new File("e:/Test/PIC1.JPG");
@@ -176,14 +177,15 @@ The current designer only allows uploading one asset at a time. If you need to u
                 httpclient.close();
             }
         }
-    }```
+    }
 
 
 - **Test, only the particular file types can be uploaded :**
-    We can check file type with ``file.getContentType()` and allow only particular file types to be uploaded.
+    We can check file type with ``file.getContentType()`` and allow only particular file types to be uploaded.
     
 - **Verify uploaded file cannot exceed a certain size :** We can count buffer size of file and implement this feature.
-   ``` int size = 0;
+   ``` 
+   int size = 0;
     while ((read = uploadedInputStream.read(buffer)) != -1) {
         out.write(buffer, 0, read);
         size += read.length;
