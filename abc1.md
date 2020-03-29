@@ -37,7 +37,7 @@ I have been learning introductory programming since 2016. I have a good understa
 
 **Python**: I have done various projects in Python involving various applications of Machine Learning and Deep Learning like Data analysis, Audio processing, Image segmentation and am very fluent in coding in Python.
 
-I have also taken Hands-on Session for Android with Kotlin for 3 days where I have covered introductory programming with Kotlin and developed some Android apps with Kotlin. Here is the Session plan that I have used ([Session](https://github.com/beinganonymous)). Also, I have taken a Seminar on Git Workflow at my University.  
+I have also taken Hands-on Session for Android with Kotlin for 3 days where I have covered introductory programming with Kotlin and developed some Android apps with Kotlin. Here is the Session plan that I have used ([Session](https://github.com/beinganonymous/Read-the-Docs-demo/raw/master/present.pdf)). Also, I have taken a Seminar on Git Workflow at my University.  
 
 # Proposed summer project
 ----------
@@ -270,11 +270,11 @@ https://github.com/mit-cml/appinventor-sources/pull/2116
 ## **Challenge 1: Creating a non-trivial app**
 1. **Expense Tracker** :
     The App assists users keep track of their day-to-day expenses by managing their incomes, expenses, and review their balances at any time.
-    [AIA](https://uce71715cc1f06f713c0a67b2d11.dl.dropboxusercontent.com/cd/0/get/A0sgyVH8UfffRN2xlB6CIsN5QlactGJNAB5ftXFbbP-7gixHdZNenGWQb8FNL9mWFKxUhcxMG3plNTQEbfgLf7gEOfJ3jDS9lLipXMTIWYksW9MfpcungaVIa_pP-otkosY/file?dl=1#) | [APK](https://uc439443c66eaad90b8d85af0b8a.dl.dropboxusercontent.com/cd/0/get/A0vM2UYkz3y7sp2W_RZXdJtXatCk_bupAxHF2haIaLaIcXTUI778kkV7Jl5yucJwezqidIW_U-hJgK-QzrkYsC241GbEarwQPAzhwEB13Rg_LOIMwPNht8ggR-Kmna2EY98/file#)
+    [AIA](https://github.com/beinganonymous/Read-the-Docs-demo/raw/master/ExpenseTracker%20(1).aia) | [APK](https://github.com/beinganonymous/Read-the-Docs-demo/raw/master/ExpenseTracker.apk)
     
 2. **Russian Roulette :**
     It is a game based on Russian Roulette. In this case, we have a revolver for 6 bullets. First Reload revolver putting a single bullet and rotating the drum. The bullet will be located randomly in one of the six sites. Then let 's pressing randomly the different buttons. If the number instead of the bullet matches the number of the button pressed, the screen turns red.
-    [AIA](https://uc0bbdbec42f70a6ee909f14cc69.dl.dropboxusercontent.com/cd/0/get/A0skb-HM4MvVzN_uJTlIZatLkvD5lEmKWU8-uAfCC_5r3JWRm1E_MuMPB33n8yNx0gOwA2wyC4VpFdBSm-3r6qnHv4xf6pJwVvect6gkaBclTClOuSqgI_5FXGSFvXrH1DU/file#) | [APK](https://ucbc57273590db97d75544f0ca88.dl.dropboxusercontent.com/cd/0/get/A0vx3aJXHmmxddhFdm8b4dgn5vA9LxwGaWSd9KDG9rodxcxMd0Z5HLyygY9zl39Q-27xPLMvO2VqPOAsY2xCiiNSvindYuhN7FjN84fHQdCcZ2oP5x0C_sFKddhwU5Tnyzk/file#)
+    [AIA](https://github.com/beinganonymous/Read-the-Docs-demo/raw/master/russian_roulette%20(1).aia) | [APK](https://github.com/beinganonymous/Read-the-Docs-demo/raw/master/russian_roulette%20(1).apk)
 
 
 ## **Challenge 2:Design challenge -- Enhancing the Camera operation**
