@@ -151,7 +151,7 @@ The current designer only allows uploading one asset at a time. If you need to u
                 System.err.println(ex);
             }
         }
-    }```
+    }
 ****    
 ### Test cases for Multiple File Uploads
 
@@ -159,7 +159,8 @@ The current designer only allows uploading one asset at a time. If you need to u
    ****
    **Test Cases :**
 - **Make sure, cancel button works during the upload process :** 
-    ```public class ClientAbortMethod {
+    ```
+    public class ClientAbortMethod {
         public final static void main(String[] args) throws Exception {
             CloseableHttpClient httpclient = HttpClients.createDefault();
             try {
@@ -189,7 +190,7 @@ The current designer only allows uploading one asset at a time. If you need to u
     while ((read = uploadedInputStream.read(buffer)) != -1) {
         out.write(buffer, 0, read);
         size += read.length;
-    }```
+    }
     
 - **Test empty upload is not working :**
     Check empty upload using ``if (projectImg.isEmpty()) { ... }``
