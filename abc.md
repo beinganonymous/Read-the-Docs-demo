@@ -39,7 +39,7 @@ The current designer only allows uploading one asset at a time. If you need to u
 The deliverables of the project would be as follows:
 
 1. **An improvement in the currently existing file chooser**: 
-Current file chooser only support to upload one file at a time, so this deliverable will add support to current file chooser to allow multiple file upload in one go.
+Current file chooser only support to the upload one file at a time, so this deliverable will add support to current file chooser to allow multiple file upload in one go.
 2. **Test cases for Multiple File Uploads**: 
 File upload is an important part of any web application. We can test file upload either using manual testing or using automation testing. Following elements should be tested while uploading files.
     - Test the phrase upload is correctly aligned with the upload button.
