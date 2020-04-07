@@ -1,4 +1,5 @@
 # Application for GSoC 2020
+MIT
 ----------
 
 # Interest in App Inventor
