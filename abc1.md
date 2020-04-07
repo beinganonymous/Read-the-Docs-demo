@@ -1,4 +1,4 @@
-# Application for GSoC 2020 : Multiple File Uploads 
+# Application for GSoC 2020 
 **MIT APP INVENTOR**
 
 
