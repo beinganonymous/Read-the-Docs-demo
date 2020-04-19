@@ -49,7 +49,7 @@ I have contributed to two issues in MIT App Inventor [#2071](https://github.com/
 
 ## Title
 
-Designer Projects : Multiple File Uploads
+Designer Projects : 
 
 
 ## Abstract
